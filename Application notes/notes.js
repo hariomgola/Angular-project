@@ -89,10 +89,32 @@
    - $0.value                  -    change     - Defined by the DOM(Document Object model)  - value is the current value
 
    - Property binding is needed because interpolation only works with string value not with the boolean value that's why we need property binding
-   
+   - Putting example in test component for disabled attribute
+   - Insted of using [] we can also used `bind-` syntax for property binding 
+
+  # Binding Classes to HTML
+   - Class binding mainly work with binding css class to an html using class attribute
+   - it works with [] or "" binding
+   - Also able to apply on based of an expression
+   - We can also use ngClass directive to bind the data
+   - Its mainly allow us to bind the html element on based of user's interaction
+
+  # Event Binding (Template -> Class)
+
+  # Template Reference variable
+   - To easily access Dom element and properties angular provides with template reference varaibles.
+   - Reference varaible is used to refer to an html element and all of its dom property
 
 
+  # Two Way Binding
+   - Two way binding to use to bind data from html or ts or vice-a-versa
+   - also we have top import ngmodel
+   - import FormsModule in app.module.ts file from angular form
 
+  # Structural Directive
+   - ngIf
+   - ngSwitch
+   - ngFor
 
 
 
